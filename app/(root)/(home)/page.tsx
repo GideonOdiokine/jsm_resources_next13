@@ -19,7 +19,7 @@ const Page = async ({ searchParams }: Props) => {
 
   const resourcesPlaylist = await getResourcesPlaylist();
 
-  console.log(resourcesPlaylist);
+//   console.log(resourcesPlaylist);
 
   return (
     <main className="flex-center paddings mx-auto w-full max-w-screen-2xl flex-col">

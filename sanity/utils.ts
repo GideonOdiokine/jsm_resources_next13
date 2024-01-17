@@ -48,6 +48,7 @@ export function formUrlQuery({ params, key, value, keysToRemove }: UrlQueryParam
         currentUrl[key] = value;
     }
 
+
     return qs.stringifyUrl(
         { url: window.location.pathname, query: currentUrl },
         { skipNull: true }
